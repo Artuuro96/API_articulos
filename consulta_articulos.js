@@ -15,13 +15,10 @@ const consulta_articulos = async(req, res) => {
 
             let nuevos_datos = procesa_informacion(respuesta_api);
 
-            datos = datos.concat(nuevos_datos)
-
+            datos = datos.concat(nuevos_datos);
             offset = offset + 50;
             
         } while (offset < 1000);
-
-        console.log("Numero de datos", datos.length)
 
         return res.json({
             codigo: 200,

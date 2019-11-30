@@ -8,10 +8,10 @@ const procesa_peticion = (offset) => new Promise((resolver, rechazar) => {
         }
 
         if(response.statusCode != 200)
-            return rechazar("Algo salió mal al hacer la petición a la API de mercado libre")
+            return rechazar("Algo salió mal al hacer la petición a la API de mercado libre");
         // console.log("response", response);
         // console.log("BODY", body)
-        return resolver(JSON.parse(response.body))
+        return resolver(JSON.parse(response.body));
     })
 })
 
