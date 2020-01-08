@@ -1,6 +1,6 @@
 # API_articulos
 
-Servicio para consultar el top 1000 de articulos con menor precio
+Servicio para consultar el top 1000 de articulos con menor precio. En este caso la empresa que fue tomada para la consulta de este servicio es Ibushak, pero se puede cambiar desde la url de la api que consulta en mercado libre
 
 ## Inicio
 Para arrancar el servicio basta con teclear el siguiente comando en la ubicación del achivo index.js
